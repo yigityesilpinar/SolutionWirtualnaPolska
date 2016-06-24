@@ -1,0 +1,21 @@
+{
+  "name": "wpsolutionyigityesilpinar",
+  "version": "1.0.0",
+  "description": "Solution app for MyLoader and $$$ querySelector supporting :ef() and :not()",
+  "main": "app.js",
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/yigityesilpinar/SolutionWirtualnaPolska.git"
+  },
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yigit Yesilpinar",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "lite-server": "^2.2.0"
+  }
+}

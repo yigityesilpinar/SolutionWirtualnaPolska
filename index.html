@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>GWP Solution YY</title>
+  <link href="bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+      
+        <ul class="nav navbar-nav">
+          <li>
+            <a class="nav-link" href="/"> MyLoader</a>
+          </li>
+          <li>
+            <a class="nav-link" href="/selector.html"> MySelector</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  </header>
+
+
+  <div class="row">
+    <div class="container col-md-8 col-md-offset-2">
+      <div class="container col-md-6 ">
+        <div>CODE </div>
+      </div>
+      <div class="container col-md-6 ">
+        <div>RESULT</div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="container col-md-8 col-md-offset-2">
+      <div class="container col-md-6 ">
+        <textarea id="loaderContent" class="form-control custom-control" rows="30" style="resize:none"></textarea>
+      </div>
+      <div class="container col-md-6 ">
+        <div class="input-group">
+          <textarea id="loaderResult" class="form-control custom-control" rows="30" style="resize:none"></textarea>
+          <span id="execButton" class="input-group-addon btn btn-primary">Execute</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="myloader.js"></script>
+  <script src="app.js"></script>
+
+</body>

@@ -1,0 +1,14 @@
+body
+{
+	font-size:22px;
+	font-family: "Comic Sans MS", cursive, sans-serif	
+
+}
+.selectorDiv{
+	background-color: #fff;
+	color: #000;
+	margin-top: 2em;
+}
+textarea {
+    font-size: 18px!important;
+}

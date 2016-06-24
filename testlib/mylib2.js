@@ -1,0 +1,1 @@
+console.log("mylib2 CONTENT");
