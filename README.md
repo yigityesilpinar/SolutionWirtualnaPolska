@@ -28,7 +28,7 @@ var found = $$$(".top:eq( 1) .sub:not(div)")[0];
 found.style.backgroundColor = "#AFA";
 ```
 
-MyLoader
+MyLoader Asynchronous lib loader (myloader.js)
 ```
 MyLoader.go({
   libs: ['mylib1.js', 'mylib1.js', 'mylib1.js'],
